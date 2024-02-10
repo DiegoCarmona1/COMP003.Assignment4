@@ -45,8 +45,19 @@ namespace COMP003.Assignment4
 
             //do-while section
             Console.WriteLine("*********************************");
-
+            Console.WriteLine("do-while Section");
+            Console.WriteLine("Output 0-50 by 5s");
             Console.WriteLine("*********************************");
+
+            int counter = 0;
+
+            do
+            {
+                Console.WriteLine($"{counter}");
+                counter += 5;
+            } while (counter < 50);
+
+
         }
     }
 }
