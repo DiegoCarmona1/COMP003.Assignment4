@@ -57,6 +57,37 @@ namespace COMP003.Assignment4
                 counter += 5;
             } while (counter <= 50);
 
+            //While Section
+            Console.WriteLine("*********************************");
+            Console.WriteLine("while Section");
+            Console.WriteLine("Output 1-20");
+            Console.WriteLine("If the number is divisible by 2, output Foo");
+            Console.WriteLine("If the number is divisible by 5, output Bar");
+            Console.WriteLine("If the number is divisible by 2 & 5, output FooBar");
+            Console.WriteLine("*********************************");
+            int counter2 = 1;
+
+            while (counter2 <= 20)
+            {
+                if (counter2 % 2 == 0)
+                {
+                    Console.WriteLine("Foo");
+                }
+                else if (counter2 % 5 == 0) 
+                {
+                    Console.WriteLine("Bar");
+                }
+                else if ( counter2 % 2 == 0 && counter2 % 5 == 0)
+                {
+                    Console.WriteLine("FooBar");
+                }
+                else
+                {
+                    Console.WriteLine(counter2);
+                }
+                counter2++;
+            }
+
 
         }
     }
