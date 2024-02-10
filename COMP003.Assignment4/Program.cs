@@ -31,7 +31,15 @@ namespace COMP003.Assignment4
                 output += "#";
             }
 
-            
+            // For Each Section
+
+            string[] friends = new string[] { "Rachel", "Joey", "Chandler", "Ross", "Monica", "Phoebe" };
+            foreach (string friend in friends)
+            {
+                Console.WriteLine($"\t{friend} is my friend");
+            }
+
+            //
         }
     }
 }
