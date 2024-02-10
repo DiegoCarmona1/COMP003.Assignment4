@@ -55,7 +55,7 @@ namespace COMP003.Assignment4
             {
                 Console.WriteLine($"{counter}");
                 counter += 5;
-            } while (counter < 50);
+            } while (counter <= 50);
 
 
         }
