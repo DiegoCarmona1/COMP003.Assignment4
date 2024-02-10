@@ -69,17 +69,17 @@ namespace COMP003.Assignment4
 
             while (counter2 <= 20)
             {
-                if (counter2 % 2 == 0)
+                if (counter2 % 2 == 0 && counter2 % 5 == 0)
                 {
-                    Console.WriteLine("Foo");
+                    Console.WriteLine("FooBar");
                 }
                 else if (counter2 % 5 == 0) 
                 {
                     Console.WriteLine("Bar");
                 }
-                else if ( counter2 % 2 == 0 && counter2 % 5 == 0)
+                else if (counter2 % 2 == 0)
                 {
-                    Console.WriteLine("FooBar");
+                    Console.WriteLine("Foo");
                 }
                 else
                 {
