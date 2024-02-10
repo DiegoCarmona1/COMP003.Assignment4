@@ -32,6 +32,10 @@ namespace COMP003.Assignment4
             }
 
             // For Each Section
+            Console.WriteLine("*********************************");
+            Console.WriteLine("foreach Section");
+            Console.WriteLine("Output a;; of the friends in an array");
+            Console.WriteLine("*********************************");
 
             string[] friends = new string[] { "Rachel", "Joey", "Chandler", "Ross", "Monica", "Phoebe" };
             foreach (string friend in friends)
@@ -39,7 +43,10 @@ namespace COMP003.Assignment4
                 Console.WriteLine($"\t{friend} is my friend");
             }
 
-            //
+            //do-while section
+            Console.WriteLine("*********************************");
+
+            Console.WriteLine("*********************************");
         }
     }
 }
